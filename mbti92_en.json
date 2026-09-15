@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 1,
+    "dimension": "EI",
+    "text": "You prefer to:",
+    "options": [
+      {
+        "text": "Socialize lively with many people",
+        "value": "E"
+      },
+      {
+        "text": "Have deep conversations with a few close friends",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "dimension": "SN",
+    "text": "You tend to trust:",
+    "options": [
+      {
+        "text": "Reality and what’s practical",
+        "value": "S"
+      },
+      {
+        "text": "Intuition and inspiration",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "dimension": "TF",
+    "text": "When making decisions, you rely more on:",
+    "options": [
+      {
+        "text": "Logical analysis",
+        "value": "T"
+      },
+      {
+        "text": "Personal values",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "dimension": "JP",
+    "text": "You tend to prefer:",
+    "options": [
+      {
+        "text": "Planning things in advance",
+        "value": "J"
+      },
+      {
+        "text": "Staying open and flexible",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "dimension": "EI",
+    "text": "In relationships, you usually:",
+    "options": [
+      {
+        "text": "Join multiple social circles",
+        "value": "E"
+      },
+      {
+        "text": "Focus on a few deep relationships",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "dimension": "SN",
+    "text": "You are more attracted to:",
+    "options": [
+      {
+        "text": "Clear, concrete statements",
+        "value": "S"
+      },
+      {
+        "text": "Metaphors, symbols, or deeper meaning",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "dimension": "TF",
+    "text": "You believe people should:",
+    "options": [
+      {
+        "text": "Speak with logic",
+        "value": "T"
+      },
+      {
+        "text": "Consider others’ feelings",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "dimension": "JP",
+    "text": "Your lifestyle is more:",
+    "options": [
+      {
+        "text": "Organized and controlled",
+        "value": "J"
+      },
+      {
+        "text": "Flexible and adaptive",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "dimension": "EI",
+    "text": "At lunchtime you’d rather:",
+    "options": [
+      {
+        "text": "Walk and chat with coworkers to exchange info",
+        "value": "E"
+      },
+      {
+        "text": "Find a quiet corner alone to recharge",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "dimension": "SN",
+    "text": "When learning something new you:",
+    "options": [
+      {
+        "text": "Prefer clear step‑by‑step instructions",
+        "value": "S"
+      },
+      {
+        "text": "Prefer exploring meanings and possibilities yourself",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "dimension": "TF",
+    "text": "When writing evaluations you lean toward:",
+    "options": [
+      {
+        "text": "Listing criteria and explaining the logic",
+        "value": "T"
+      },
+      {
+        "text": "Describing feelings and human impact",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "dimension": "JP",
+    "text": "When managing personal finances you:",
+    "options": [
+      {
+        "text": "Set a budget and track it monthly",
+        "value": "J"
+      },
+      {
+        "text": "Spend flexibly based on current needs",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "dimension": "EI",
+    "text": "You more easily:",
+    "options": [
+      {
+        "text": "Feel energized in crowds",
+        "value": "E"
+      },
+      {
+        "text": "Feel tired in crowds",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "dimension": "SN",
+    "text": "When reviewing a new product you value:",
+    "options": [
+      {
+        "text": "Verifiable data, tests, and comparison charts",
+        "value": "S"
+      },
+      {
+        "text": "Industry direction, potential, and gut sense",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "dimension": "TF",
+    "text": "When facing conflict you tend to:",
+    "options": [
+      {
+        "text": "Find what’s right/wrong and clarify logic",
+        "value": "T"
+      },
+      {
+        "text": "Ease tensions and seek understanding",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "dimension": "JP",
+    "text": "On trips you tend to:",
+    "options": [
+      {
+        "text": "Plan every detail",
+        "value": "J"
+      },
+      {
+        "text": "Go with the flow and enjoy the moment",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "dimension": "EI",
+    "text": "In social settings you’re more like:",
+    "options": [
+      {
+        "text": "The one who starts conversations",
+        "value": "E"
+      },
+      {
+        "text": "The one who listens more",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "dimension": "SN",
+    "text": "When deciding you:",
+    "options": [
+      {
+        "text": "Rely on known facts",
+        "value": "S"
+      },
+      {
+        "text": "Consider what might be possible",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "dimension": "TF",
+    "text": "When advising coworkers you usually:",
+    "options": [
+      {
+        "text": "Point out issues and propose process fixes",
+        "value": "T"
+      },
+      {
+        "text": "Affirm first, then gently suggest improvements",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "dimension": "JP",
+    "text": "For scheduling you prefer to:",
+    "options": [
+      {
+        "text": "Prepare well in advance",
+        "value": "J"
+      },
+      {
+        "text": "Adjust at the last minute",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "dimension": "EI",
+    "text": "You are more willing to:",
+    "options": [
+      {
+        "text": "Join various gatherings and social events",
+        "value": "E"
+      },
+      {
+        "text": "Be alone or talk with one or two close friends",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "dimension": "SN",
+    "text": "When expressing opinions you:",
+    "options": [
+      {
+        "text": "Use concrete facts",
+        "value": "S"
+      },
+      {
+        "text": "Prefer metaphors and analogies",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "dimension": "TF",
+    "text": "Hearing about a decision, you care more about:",
+    "options": [
+      {
+        "text": "Whether it’s reasonable and fair",
+        "value": "T"
+      },
+      {
+        "text": "Whether it considers people’s feelings",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "dimension": "JP",
+    "text": "Handling to‑dos you prefer:",
+    "options": [
+      {
+        "text": "A plan and sequential completion",
+        "value": "J"
+      },
+      {
+        "text": "Flexibility to change with circumstances",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "dimension": "EI",
+    "text": "At a party you more often:",
+    "options": [
+      {
+        "text": "Mingle and greet people proactively",
+        "value": "E"
+      },
+      {
+        "text": "Find a seat and chat with familiar faces",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "dimension": "SN",
+    "text": "You’re more convinced by:",
+    "options": [
+      {
+        "text": "Tried‑and‑true experience",
+        "value": "S"
+      },
+      {
+        "text": "Visions of the future",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "dimension": "TF",
+    "text": "You tend to come across as:",
+    "options": [
+      {
+        "text": "Decisive and opinionated",
+        "value": "T"
+      },
+      {
+        "text": "Friendly and easy to talk to",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "dimension": "JP",
+    "text": "When facing unexpected issues you tend to:",
+    "options": [
+      {
+        "text": "Prepare contingency plans in advance",
+        "value": "J"
+      },
+      {
+        "text": "Improvise based on the situation",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "dimension": "EI",
+    "text": "With free time you’d choose to:",
+    "options": [
+      {
+        "text": "Dine or shop with friends",
+        "value": "E"
+      },
+      {
+        "text": "Stay home and rest alone",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "dimension": "SN",
+    "text": "When reading articles you prefer:",
+    "options": [
+      {
+        "text": "Content backed by concrete facts",
+        "value": "S"
+      },
+      {
+        "text": "Creative and imaginative content",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "dimension": "TF",
+    "text": "When asked to evaluate something you:",
+    "options": [
+      {
+        "text": "State your true thoughts directly",
+        "value": "T"
+      },
+      {
+        "text": "Be tactful and consider feelings",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "dimension": "JP",
+    "text": "People more often call you:",
+    "options": [
+      {
+        "text": "Organized and punctual",
+        "value": "J"
+      },
+      {
+        "text": "Flexible and adaptable",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "dimension": "EI",
+    "text": "Entering a new environment you:",
+    "options": [
+      {
+        "text": "Introduce yourself and start talking",
+        "value": "E"
+      },
+      {
+        "text": "Observe first and ease in slowly",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "dimension": "SN",
+    "text": "You prefer tasks that are:",
+    "options": [
+      {
+        "text": "Specific and measurable",
+        "value": "S"
+      },
+      {
+        "text": "Creative with room to explore",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "dimension": "TF",
+    "text": "When problem‑solving you rely more on:",
+    "options": [
+      {
+        "text": "Cool‑headed reasoning",
+        "value": "T"
+      },
+      {
+        "text": "Inner values and resonance",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "dimension": "JP",
+    "text": "Your friends may think you are:",
+    "options": [
+      {
+        "text": "A planner who sticks to plans",
+        "value": "J"
+      },
+      {
+        "text": "Easygoing and unbound by form",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "dimension": "EI",
+    "text": "You prefer communicating:",
+    "options": [
+      {
+        "text": "Live, energetic face‑to‑face chats",
+        "value": "E"
+      },
+      {
+        "text": "Text or deep one‑on‑one talks",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "dimension": "SN",
+    "text": "You believe more in:",
+    "options": [
+      {
+        "text": "What you see in reality",
+        "value": "S"
+      },
+      {
+        "text": "What your intuition tells you",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "dimension": "TF",
+    "text": "What matters more to you:",
+    "options": [
+      {
+        "text": "Achieving the goal",
+        "value": "T"
+      },
+      {
+        "text": "A comfortable process",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "dimension": "JP",
+    "text": "When plans are disrupted you usually:",
+    "options": [
+      {
+        "text": "Feel uneasy and rush to fix them",
+        "value": "J"
+      },
+      {
+        "text": "Accept it and rearrange",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "dimension": "EI",
+    "text": "When speaking in a group you usually:",
+    "options": [
+      {
+        "text": "Express your views without hesitation",
+        "value": "E"
+      },
+      {
+        "text": "Gauge the vibe before speaking",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "dimension": "SN",
+    "text": "You prefer information that is:",
+    "options": [
+      {
+        "text": "Objective facts and data",
+        "value": "S"
+      },
+      {
+        "text": "Theoretical analysis and future trends",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "dimension": "TF",
+    "text": "Choosing a charity plan, you value:",
+    "options": [
+      {
+        "text": "Efficiency, cost, and reach",
+        "value": "T"
+      },
+      {
+        "text": "Recipients’ experience and emotional connection",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "dimension": "JP",
+    "text": "When shooting a short film you would:",
+    "options": [
+      {
+        "text": "Write a storyboard and shot list first",
+        "value": "J"
+      },
+      {
+        "text": "Shoot and experiment on the spot",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "dimension": "EI",
+    "text": "You tend to:",
+    "options": [
+      {
+        "text": "Gain energy from external activities",
+        "value": "E"
+      },
+      {
+        "text": "Gain energy by processing internally",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "dimension": "SN",
+    "text": "At a museum you prefer:",
+    "options": [
+      {
+        "text": "Specimens, craft details, and plaques",
+        "value": "S"
+      },
+      {
+        "text": "Conceptual curation, interactives, and metaphors",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "dimension": "TF",
+    "text": "When managing others, most important is:",
+    "options": [
+      {
+        "text": "Rules and fairness",
+        "value": "T"
+      },
+      {
+        "text": "Motivation and care",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "dimension": "JP",
+    "text": "Your preferred work rhythm is:",
+    "options": [
+      {
+        "text": "Goals, milestones, and closure",
+        "value": "J"
+      },
+      {
+        "text": "Free scheduling and act on inspiration",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "dimension": "EI",
+    "text": "On the first night in a new city you’d:",
+    "options": [
+      {
+        "text": "Explore night markets or events and meet people",
+        "value": "E"
+      },
+      {
+        "text": "Head back to settle in and quietly plan routes",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "dimension": "SN",
+    "text": "You trust advice that is:",
+    "options": [
+      {
+        "text": "Backed by data and evidence",
+        "value": "S"
+      },
+      {
+        "text": "From intuition and deep understanding",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "dimension": "TF",
+    "text": "As a teacher you’d rather be seen as:",
+    "options": [
+      {
+        "text": "Fair, professional, and logical",
+        "value": "T"
+      },
+      {
+        "text": "Warm, inclusive, and supportive",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "dimension": "JP",
+    "text": "To finish tasks you prefer:",
+    "options": [
+      {
+        "text": "Strict execution in stages",
+        "value": "J"
+      },
+      {
+        "text": "Flexible scheduling by your state",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "dimension": "EI",
+    "text": "Which communication feels better:",
+    "options": [
+      {
+        "text": "Group chats with lively vibes",
+        "value": "E"
+      },
+      {
+        "text": "Small‑group or one‑on‑one deep talks",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "dimension": "SN",
+    "text": "Your favored expression style is:",
+    "options": [
+      {
+        "text": "Precise, concise, and evidence‑based",
+        "value": "S"
+      },
+      {
+        "text": "Associative, vivid, and multi‑angled",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "dimension": "TF",
+    "text": "Dividing chores you prefer:",
+    "options": [
+      {
+        "text": "Rules or time split evenly",
+        "value": "T"
+      },
+      {
+        "text": "Adjust flexibly by each week’s situation",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "dimension": "JP",
+    "text": "When tidying your room you more likely:",
+    "options": [
+      {
+        "text": "Clean regularly and sort neatly",
+        "value": "J"
+      },
+      {
+        "text": "Tidy sections when you feel like it",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "dimension": "EI",
+    "text": "Under stress you’re more likely to:",
+    "options": [
+      {
+        "text": "Vent outward and seek someone to talk to",
+        "value": "E"
+      },
+      {
+        "text": "Hold it in and cope quietly",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "dimension": "SN",
+    "text": "You’d rather use tools that are:",
+    "options": [
+      {
+        "text": "Measurable and hands‑on",
+        "value": "S"
+      },
+      {
+        "text": "Exploratory and concept‑driven",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "dimension": "TF",
+    "text": "In collaboration you stress:",
+    "options": [
+      {
+        "text": "Clear roles and rules",
+        "value": "T"
+      },
+      {
+        "text": "Harmony and mutual understanding",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "dimension": "JP",
+    "text": "When cooking you more likely:",
+    "options": [
+      {
+        "text": "Follow the recipe’s steps and measures",
+        "value": "J"
+      },
+      {
+        "text": "Adjust by feel and iterate as you go",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "dimension": "EI",
+    "text": "Your thinking style is more:",
+    "options": [
+      {
+        "text": "Talk it out to clarify",
+        "value": "E"
+      },
+      {
+        "text": "Think deeply alone before speaking",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "dimension": "SN",
+    "text": "Reading a manual you focus on:",
+    "options": [
+      {
+        "text": "Whether steps are detailed enough",
+        "value": "S"
+      },
+      {
+        "text": "Understanding the big picture and use cases",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "dimension": "TF",
+    "text": "When criticized you more likely:",
+    "options": [
+      {
+        "text": "Take it rationally—address the issue, not the person",
+        "value": "T"
+      },
+      {
+        "text": "Feel emotionally impacted",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "dimension": "JP",
+    "text": "When planning a trip you care more about:",
+    "options": [
+      {
+        "text": "Timings, routes, and arrangements",
+        "value": "J"
+      },
+      {
+        "text": "Freedom and flexibility",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "dimension": "EI",
+    "text": "Your ideal vacation is:",
+    "options": [
+      {
+        "text": "A lively trip with friends",
+        "value": "E"
+      },
+      {
+        "text": "A quiet, relaxing solo break",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "dimension": "SN",
+    "text": "After a movie you remember more:",
+    "options": [
+      {
+        "text": "Specific scenes, lines, and props",
+        "value": "S"
+      },
+      {
+        "text": "Themes, symbols, and emotional tone",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "dimension": "TF",
+    "text": "When giving advice you more often:",
+    "options": [
+      {
+        "text": "Offer objective, actionable plans",
+        "value": "T"
+      },
+      {
+        "text": "First comfort and empathize",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "dimension": "JP",
+    "text": "Facing uncertainty you tend to:",
+    "options": [
+      {
+        "text": "Feel anxious and want control",
+        "value": "J"
+      },
+      {
+        "text": "Adapt to change and enjoy improvising",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "dimension": "EI",
+    "text": "In meetings or classes you tend to:",
+    "options": [
+      {
+        "text": "Participate actively",
+        "value": "E"
+      },
+      {
+        "text": "Listen, take notes, and speak occasionally",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "dimension": "SN",
+    "text": "When discussing issues you focus more on:",
+    "options": [
+      {
+        "text": "Concrete problems and solutions",
+        "value": "S"
+      },
+      {
+        "text": "Underlying concepts and connections",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "dimension": "TF",
+    "text": "Your idea of “fairness” is closer to:",
+    "options": [
+      {
+        "text": "Follow the rules, no favoritism",
+        "value": "T"
+      },
+      {
+        "text": "Consider context—case by case",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "dimension": "JP",
+    "text": "Before decisions you prefer to:",
+    "options": [
+      {
+        "text": "List options and evaluation tables",
+        "value": "J"
+      },
+      {
+        "text": "Follow intuition and adapt on the fly",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "dimension": "EI",
+    "text": "Meeting an acquaintance in an elevator you:",
+    "options": [
+      {
+        "text": "Greet and naturally start a topic",
+        "value": "E"
+      },
+      {
+        "text": "Nod politely and avoid disturbing them",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "dimension": "SN",
+    "text": "Thinking about the future you more:",
+    "options": [
+      {
+        "text": "Focus on what’s feasible now",
+        "value": "S"
+      },
+      {
+        "text": "Imagine various possibilities",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "dimension": "TF",
+    "text": "You care more about being seen as:",
+    "options": [
+      {
+        "text": "Smart and capable",
+        "value": "T"
+      },
+      {
+        "text": "Understanding and empathetic",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "dimension": "JP",
+    "text": "Your preferred work style is:",
+    "options": [
+      {
+        "text": "Clear plan, step‑by‑step",
+        "value": "J"
+      },
+      {
+        "text": "Flexible process with room to play",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "dimension": "EI",
+    "text": "After work you’d rather:",
+    "options": [
+      {
+        "text": "Meet up and chat with friends",
+        "value": "E"
+      },
+      {
+        "text": "Spend quiet time alone",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "dimension": "SN",
+    "text": "Facing complex problems you usually:",
+    "options": [
+      {
+        "text": "Break down details to analyze",
+        "value": "S"
+      },
+      {
+        "text": "Look for breakthroughs from the big picture",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "dimension": "TF",
+    "text": "You want your judgments to be more:",
+    "options": [
+      {
+        "text": "Accurate, reasonable, and just",
+        "value": "T"
+      },
+      {
+        "text": "Gentle, considerate, and flexible",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "dimension": "JP",
+    "text": "With unfinished plans you’re more likely to:",
+    "options": [
+      {
+        "text": "Feel anxious and unsettled",
+        "value": "J"
+      },
+      {
+        "text": "Think they can be postponed",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "dimension": "EI",
+    "text": "When organizing a gathering you:",
+    "options": [
+      {
+        "text": "Initiate and set the agenda",
+        "value": "E"
+      },
+      {
+        "text": "Respond to invites and participate",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "dimension": "SN",
+    "text": "Learning a new software you first:",
+    "options": [
+      {
+        "text": "Reproduce official demos step by step",
+        "value": "S"
+      },
+      {
+        "text": "Grasp core ideas then explore freely",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "dimension": "TF",
+    "text": "You dislike more:",
+    "options": [
+      {
+        "text": "Illogical behavior",
+        "value": "T"
+      },
+      {
+        "text": "Words lacking empathy",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "dimension": "JP",
+    "text": "Handling emergencies you’re more likely to:",
+    "options": [
+      {
+        "text": "Try to control and react quickly",
+        "value": "J"
+      },
+      {
+        "text": "Observe first and adapt gradually",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "dimension": "EI",
+    "text": "When noticed in public you:",
+    "options": [
+      {
+        "text": "Accept it calmly—even enjoy it",
+        "value": "E"
+      },
+      {
+        "text": "Feel uneasy and want to leave",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "dimension": "SN",
+    "text": "When viewing issues you focus more on:",
+    "options": [
+      {
+        "text": "Current evidence and reality",
+        "value": "S"
+      },
+      {
+        "text": "Long‑term development and meaning",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "dimension": "TF",
+    "text": "In relationships you emphasize:",
+    "options": [
+      {
+        "text": "Clear communication and mutual respect",
+        "value": "T"
+      },
+      {
+        "text": "Emotional care and harmony",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "dimension": "JP",
+    "text": "You aspire more to a life that is:",
+    "options": [
+      {
+        "text": "Rhythmic, planned, and orderly",
+        "value": "J"
+      },
+      {
+        "text": "Free, changing, and spontaneous",
+        "value": "P"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "dimension": "EI",
+    "text": "When networking, you prefer to:",
+    "options": [
+      {
+        "text": "Meet many new contacts at once",
+        "value": "E"
+      },
+      {
+        "text": "Build a few relationships in depth",
+        "value": "I"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "dimension": "SN",
+    "text": "When troubleshooting a device you first:",
+    "options": [
+      {
+        "text": "Check concrete steps and error codes",
+        "value": "S"
+      },
+      {
+        "text": "Consider the overall system idea",
+        "value": "N"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "dimension": "TF",
+    "text": "Giving performance feedback you focus on:",
+    "options": [
+      {
+        "text": "Objective criteria and results",
+        "value": "T"
+      },
+      {
+        "text": "Individual context and feelings",
+        "value": "F"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "dimension": "JP",
+    "text": "On deadlines you tend to:",
+    "options": [
+      {
+        "text": "Lock scope early and follow the plan",
+        "value": "J"
+      },
+      {
+        "text": "Keep options open and adjust late",
+        "value": "P"
+      }
+    ]
+  }
+]

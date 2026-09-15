@@ -1,0 +1,41 @@
+<section class="relative mx-auto flex max-w-6xl flex-col gap-12 px-6 py-16">
+  <div class="grid gap-12 lg:grid-cols-2">
+    <div class="space-y-6">
+      <p class="text-xs uppercase tracking-[0.4em] text-white/50">MBTI92 mini platform</p>
+      <h1 class="text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
+        One-page MBTI experience backed by Go + PostgreSQL
+      </h1>
+      <p class="text-lg text-white/70">
+        Ship a delightful 92-question journey with instant scoring, JSONB persistence,
+        and share-ready results. The Angular SPA talks to the Go service you just provisioned,
+        so the blueprint below can go live within hours.
+      </p>
+      <div class="flex flex-wrap items-center gap-4 pt-4">
+        <a routerLink="/quiz" class="btn-primary text-base">Start the assessment</a>
+        <a routerLink="/" fragment="blueprint" class="btn-secondary text-base">See blueprint</a>
+        <span class="text-sm text-white/50">Made for signals-first Angular 20.</span>
+      </div>
+    </div>
+    <div class="glass-panel space-y-5 p-8">
+      <p class="text-xs uppercase tracking-[0.4em] text-white/50">Highlights</p>
+      <div class="space-y-5">
+        @for (stat of stats; track stat.label) {
+          <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
+            <p class="text-sm uppercase tracking-[0.35em] text-white/50">{{ stat.label }}</p>
+            <p class="mt-2 text-lg text-white/80">{{ stat.value }}</p>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+
+  <div id="blueprint" class="grid gap-6 lg:grid-cols-3">
+    @for (card of blueprint; track card.title) {
+      <article class="glass-panel flex flex-col gap-3 p-6">
+        <p class="text-xs uppercase tracking-[0.3em] text-white/60">Blueprint</p>
+        <h3 class="text-xl font-semibold text-white">{{ card.title }}</h3>
+        <p class="text-sm text-white/70">{{ card.details }}</p>
+      </article>
+    }
+  </div>
+</section>

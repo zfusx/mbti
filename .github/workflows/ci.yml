@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.26.x"
+          cache-dependency-path: backend/go.sum
+      - name: Vet
+        working-directory: backend
+        run: go vet ./...
+      - name: Test
+        working-directory: backend
+        run: go test -race ./...
+      - name: Vulnerability scan
+        working-directory: backend
+        run: go run golang.org/x/vuln/cmd/govulncheck@latest ./...
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install
+        working-directory: frontend
+        run: npm ci
+      - name: Audit production dependencies
+        working-directory: frontend
+        run: npm audit --omit=dev
+      - name: Test
+        working-directory: frontend
+        run: npm run test:ci
+      - name: Build with Angular
+        working-directory: frontend
+        run: npm run build:ng
+      - name: Build with Vite
+        working-directory: frontend
+        run: npm run build
+      - name: Verify embedded frontend
+        run: |
+          ./scripts/embed_frontend.sh
+          git diff --exit-code -- backend/web/static

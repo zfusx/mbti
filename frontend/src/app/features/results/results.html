@@ -1,0 +1,107 @@
+<section class="mx-auto max-w-6xl space-y-10 px-6 py-12">
+  @if (loading()) {
+    <div class="glass-panel animate-pulse space-y-6 p-8">
+      <div class="h-6 w-1/4 rounded-full bg-white/10"></div>
+      <div class="h-10 w-1/2 rounded-full bg-white/10"></div>
+      <div class="h-32 rounded-3xl bg-white/10"></div>
+    </div>
+  } @else {
+    @if (error(); as message) {
+      <div class="glass-panel border border-red-500/40 bg-red-500/10 p-6 text-sm text-red-200">
+        {{ message }}
+      </div>
+    }
+
+    <div class="grid gap-8 lg:grid-cols-[2fr,1fr]">
+      <article class="glass-panel space-y-6 p-8">
+        <div>
+          <p class="text-xs uppercase tracking-[0.4em] text-white/50">Result</p>
+          <p class="text-4xl font-semibold text-white">
+            {{ type() }} - {{ document()?.nickname ?? 'MBTI Type' }}
+          </p>
+          <p class="text-sm text-white/60">{{ document()?.ratio }}</p>
+        </div>
+        <p class="text-lg leading-relaxed text-white/80">
+          {{
+            document()?.description ||
+              'Complete the assessment to unlock your personalized narrative.'
+          }}
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a routerLink="/quiz" class="btn-primary text-sm">Retake quiz</a>
+          <a routerLink="/" class="btn-secondary text-sm">Back to plan</a>
+        </div>
+      </article>
+
+      <article class="glass-panel space-y-4 p-6">
+        <p class="text-xs uppercase tracking-[0.35em] text-white/60">Snapshot</p>
+        @if (document()?.image) {
+          <img
+            class="h-48 w-full rounded-2xl object-cover"
+            [src]="document()?.image ?? ''"
+            [alt]="document()?.nickname ?? type()"
+          />
+        }
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/70">
+          <p class="font-semibold text-white">Matches</p>
+          <p>{{ (document()?.matches || []).join(' | ') || 'Available after scoring.' }}</p>
+          <p class="mt-3 font-semibold text-white">Careers</p>
+          <p>{{ (document()?.careers || []).join(' | ') || 'Available after scoring.' }}</p>
+        </div>
+      </article>
+    </div>
+
+    @if (hasScore()) {
+      <div class="grid gap-6 lg:grid-cols-2">
+        <section class="glass-panel space-y-4 p-6">
+          <header class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.35em] text-white/50">Pair balance</p>
+              <p class="text-sm text-white/70">
+                Confidence gap - {{ score()?.confidence?.minPairGap }}
+              </p>
+            </div>
+            <span class="rounded-full border border-white/10 px-4 py-1 text-xs text-white/70">
+              {{ score()?.completion }}% completion
+            </span>
+          </header>
+          <div class="space-y-3">
+            @for (pair of pairEntries(); track pair[0]) {
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="flex items-center justify-between text-sm text-white/60">
+                  <p>{{ pair[0] }}</p>
+                  <p>{{ pair[1].gap }} pt gap</p>
+                </div>
+                <div class="mt-2 flex items-center gap-3 text-white">
+                  <span class="font-semibold">{{ pair[1].left }} - {{ pair[1].leftScore }}</span>
+                  <div class="h-2 flex-1 rounded-full bg-white/10">
+                    <div
+                      class="h-full rounded-full bg-gradient-to-r from-[#4c63ed] to-[#a855f7]"
+                      [style.width.%]="pair[1].leftPct"
+                    ></div>
+                  </div>
+                  <span class="font-semibold">{{ pair[1].rightScore }} - {{ pair[1].right }}</span>
+                </div>
+              </div>
+            }
+          </div>
+        </section>
+        <section class="glass-panel space-y-4 p-6">
+          <p class="text-xs uppercase tracking-[0.35em] text-white/60">Dimension tally</p>
+          <div class="grid grid-cols-2 gap-3 text-sm">
+            @for (entry of tallyEntries(); track entry[0]) {
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
+                <p class="text-xs uppercase tracking-[0.3em] text-white/60">{{ entry[0] }}</p>
+                <p class="text-2xl font-semibold text-white">{{ entry[1] }}</p>
+              </div>
+            }
+          </div>
+        </section>
+      </div>
+    } @else {
+      <div class="glass-panel border border-white/10 bg-white/5 p-6 text-sm text-white/70">
+        Submit the quiz to view pair gaps, tallies, and confidence metrics here.
+      </div>
+    }
+  }
+</section>

@@ -1,0 +1,30 @@
+<div class="relative min-h-screen bg-[#050816] text-white">
+  <div class="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+    <div class="absolute -left-24 top-10 h-64 w-64 rounded-full bg-fuchsia-500/30 blur-3xl"></div>
+    <div class="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-indigo-500/30 blur-3xl"></div>
+    <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white/10 to-transparent"></div>
+  </div>
+
+  <header
+    class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-6 sm:flex-row sm:items-center sm:justify-between"
+  >
+    <a routerLink="/" class="text-lg font-semibold tracking-[0.65em] text-white/70">
+      MBTI<span class="text-white">92</span>
+    </a>
+    <nav class="flex items-center gap-6 text-sm text-white/70">
+      <a routerLink="/" class="transition hover:text-white/100">Overview</a>
+      <a routerLink="/quiz" class="transition hover:text-white/100">Quiz</a>
+      <a routerLink="/results/ENFP" class="transition hover:text-white/100">Sample Result</a>
+      <a routerLink="/quiz" class="btn-primary text-xs uppercase tracking-[0.2em]">Start</a>
+    </nav>
+  </header>
+
+  <main class="relative z-10">
+    <router-outlet />
+  </main>
+
+  <footer class="mx-auto max-w-6xl px-6 py-12 text-xs text-white/40">
+    <p>Angular 20 | Go 1.25 | PostgreSQL 17 JSONB | Tailwind CSS</p>
+    <p class="mt-2">Infra-ready blueprint for the MBTI92 experience.</p>
+  </footer>
+</div>

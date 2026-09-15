@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 12 16 28;
+  --color-surface: 19 24 44;
+  --color-card: 24 31 56;
+  --color-border: 58 71 108;
+  --color-text: 226 232 240;
+  --color-muted: 148 163 184;
+  --color-primary: 76 99 237;
+  --color-secondary: 217 70 239;
+  --color-accent: 249 115 22;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Grotesk', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+  min-height: 100vh;
+  margin: 0;
+}
+
+.glass-panel {
+  @apply rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md shadow-2xl;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-semibold tracking-wide text-white transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/80;
+  background-image: linear-gradient(120deg, rgb(var(--color-primary)) 0%, rgb(var(--color-secondary)) 100%);
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2 text-sm font-semibold shadow-inner shadow-black/30 transition hover:-translate-y-0.5 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/60;
+}

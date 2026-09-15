@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "type": "mbti92_result_logic_only",
+  "generatedAt": "2025-10-22T02:23:15.101156Z",
+  "description": "Minimal MBTI 92-question scoring and result logic specification",
+  "meta": {
+    "dimensions": [
+      "E",
+      "I",
+      "S",
+      "N",
+      "T",
+      "F",
+      "J",
+      "P"
+    ],
+    "pairs": [
+      [
+        "E",
+        "I"
+      ],
+      [
+        "S",
+        "N"
+      ],
+      [
+        "T",
+        "F"
+      ],
+      [
+        "J",
+        "P"
+      ]
+    ],
+    "scoring": {
+      "method": "sum-then-compare",
+      "weightDefault": 1,
+      "tiePolicy": "prefer-first",
+      "outputs": [
+        "type",
+        "tally",
+        "pairs",
+        "completion",
+        "confidence"
+      ]
+    }
+  },
+  "algorithm": {
+    "pseudocode": [
+      "Initialize tally for 8 letters to 0",
+      "For each answered question: add 1 to chosen letter (E/I/S/N/T/F/J/P)",
+      "For each pair (E vs I, S vs N, T vs F, J vs P):",
+      "  - Compare totals; choose the higher side as result letter",
+      "  - If equal: tiePolicy == 'prefer-first' → choose first; tiePolicy == 'X' → mark X",
+      "Concatenate 4 chosen letters → MBTI type",
+      "Optionally compute percentage for each side = score/(score_left+score_right)*100",
+      "Output: type, eight-dimension tally, pair data (score/percent/diff), completion percentage"
+    ]
+  },
+  "exampleOutput": {
+    "type": "ENFP",
+    "tally": {
+      "E": 23,
+      "I": 12,
+      "S": 10,
+      "N": 25,
+      "T": 14,
+      "F": 21,
+      "J": 18,
+      "P": 19
+    },
+    "pairs": {
+      "EI": {
+        "left": "E",
+        "right": "I",
+        "ratio": "23:12",
+        "leftPct": 66,
+        "rightPct": 34
+      },
+      "SN": {
+        "left": "S",
+        "right": "N",
+        "ratio": "10:25",
+        "leftPct": 29,
+        "rightPct": 71
+      },
+      "TF": {
+        "left": "T",
+        "right": "F",
+        "ratio": "14:21",
+        "leftPct": 40,
+        "rightPct": 60
+      },
+      "JP": {
+        "left": "J",
+        "right": "P",
+        "ratio": "18:19",
+        "leftPct": 49,
+        "rightPct": 51
+      }
+    },
+    "completion": 100,
+    "confidence": {
+      "minPairGap": 1,
+      "rule": "tie→prefer-left"
+    }
+  },
+  "note": "This JSON describes only the result-generation logic. No UI, storage, or payment behavior included."
+}

@@ -1,0 +1,327 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-10-22T02:33:57.004804Z",
+  "locale": "en-US",
+  "types": {
+    "ENFJ": {
+      "type": "ENFJ",
+      "nickname": "Protagonist",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fenfj.png",
+      "ratio": "Approx. 2.5% of population",
+      "description": "ENFJs are charismatic leaders driven by empathy and purpose. They naturally inspire others, foster collaboration, and care deeply about the people around them. They are warm, persuasive, and idealistic, often taking responsibility for group harmony. However, they may neglect their own needs while focusing on others. Learning self-care allows them to sustain their energy and continue empowering others.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "INFP 沉思者",
+        "ISFP 艺术家",
+        "INFJ 理想主义者"
+      ],
+      "careers": [
+        "Psychologist",
+        "Educator",
+        "Team Leader"
+      ]
+    },
+    "ENFP": {
+      "type": "ENFP",
+      "nickname": "Campaigner",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fenfp.png",
+      "ratio": "Approx. 7.0% of population",
+      "description": "ENFPs are enthusiastic, imaginative explorers who value freedom, authenticity, and inspiration. They radiate positive energy, adapt easily, and enjoy discovering new ideas and people. However, they may scatter their focus or become emotionally overwhelmed. When they channel their creativity into meaningful goals, they transform passion into long-term impact.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "INFJ 理想主义者",
+        "INFP 沉思者",
+        "ENFP 激情派"
+      ],
+      "careers": [
+        "Creative Director",
+        "Marketing Strategist",
+        "Freelance Writer"
+      ]
+    },
+    "INFJ": {
+      "type": "INFJ",
+      "nickname": "Advocate",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Finfj.png",
+      "ratio": "Approx. 1.5% of population",
+      "description": "INFJs are insightful idealists guided by strong principles and empathy. They sense deeper meanings and care about collective well-being. Thoughtful and introspective, they often help others find purpose. Yet their high expectations and emotional sensitivity can lead to burnout. Setting boundaries helps them balance idealism with inner peace.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ENFP 激情派",
+        "ENFJ 主导者",
+        "INFP 沉思者"
+      ],
+      "careers": [
+        "Counselor",
+        "Nonprofit Leader",
+        "Writer"
+      ]
+    },
+    "INFP": {
+      "type": "INFP",
+      "nickname": "Mediator",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Finfp.png",
+      "ratio": "Approx. 4.5% of population",
+      "description": "INFPs are gentle dreamers who live by personal values and emotional depth. They cherish authenticity, creativity, and meaningful relationships. Compassionate yet introspective, they often express themselves through writing or art. However, idealism can make them feel disappointed by reality. Embracing imperfection helps them stay grounded while staying true to their ideals.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ENFJ",
+        "INFJ",
+        "ENFP"
+      ],
+      "careers": [
+        "Writer",
+        "Therapist",
+        "Artist"
+      ]
+    },
+    "INTJ": {
+      "type": "INTJ",
+      "nickname": "Architect",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fintj.png",
+      "ratio": "Approx. 2% of population",
+      "description": "INTJs are strategic thinkers who excel at long-term planning and system design. They value logic, efficiency, and innovation, and they pursue ambitious goals with independence and discipline. Sometimes perceived as distant, they thrive when combining analytical rigor with emotional intelligence, achieving both results and understanding.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ENFP",
+        "ENTP",
+        "INFJ"
+      ],
+      "careers": [
+        "Product Manager",
+        "Research Scientist",
+        "Data Analyst"
+      ]
+    },
+    "INTP": {
+      "type": "INTP",
+      "nickname": "Logician",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fintp.png",
+      "ratio": "Approx. 3% of population",
+      "description": "INTPs are logical analysts who love exploring theories and patterns. Curious and independent, they seek truth and clarity through deep thought. They may overanalyze or struggle to act on ideas. Turning insights into action allows them to realize their intellectual potential and make meaningful contributions.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ENTP",
+        "INFJ",
+        "ENFP"
+      ],
+      "careers": [
+        "Programmer",
+        "Philosopher",
+        "Innovation Designer"
+      ]
+    },
+    "ENTP": {
+      "type": "ENTP",
+      "nickname": "Debater",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fentp.png",
+      "ratio": "Approx. 3% of population",
+      "description": "ENTPs are quick-witted innovators who love debating ideas and breaking conventions. Energetic and curious, they thrive in dynamic environments and enjoy challenging assumptions. Their creativity can scatter across projects; learning persistence helps them turn flashes of inspiration into lasting results.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "INFJ",
+        "INTP",
+        "ENFP"
+      ],
+      "careers": [
+        "Creative Strategist",
+        "Marketing Expert",
+        "Stand-up Comedian"
+      ]
+    },
+    "ENTJ": {
+      "type": "ENTJ",
+      "nickname": "Commander",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fentj.png",
+      "ratio": "Approx. 2% of population",
+      "description": "ENTJs are decisive, goal-oriented leaders skilled at organizing and executing complex plans. They are ambitious, confident, and driven by results. However, their assertiveness can sometimes feel overpowering. Empathy and patience make them even more effective and respected leaders.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "INTP",
+        "ENFP",
+        "ISFJ"
+      ],
+      "careers": [
+        "Executive",
+        "Strategy Consultant",
+        "Project Director"
+      ]
+    },
+    "ESTP": {
+      "type": "ESTP",
+      "nickname": "Entrepreneur",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Festp.png",
+      "ratio": "Approx. 4% of population",
+      "description": "ESTPs are energetic, action-oriented individuals who love excitement and challenges. They think on their feet, react quickly, and live in the moment. However, impulsivity can cause instability. Cultivating foresight and patience helps them combine spontaneity with sustainability.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ISFJ",
+        "ESFP",
+        "ISTJ"
+      ],
+      "careers": [
+        "Sales Manager",
+        "Emergency Responder",
+        "Tactical Consultant"
+      ]
+    },
+    "ISTP": {
+      "type": "ISTP",
+      "nickname": "Virtuoso",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fistp.png",
+      "ratio": "Approx. 5% of population",
+      "description": "ISTPs are pragmatic problem-solvers who excel with hands-on tasks. Calm and independent, they like to figure out how things work. While emotionally reserved, they value freedom and efficiency. Balancing independence with connection helps them thrive both technically and personally.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ESFJ",
+        "ISFP",
+        "ESTP"
+      ],
+      "careers": [
+        "Engineer",
+        "Mechanic",
+        "Technical Designer"
+      ]
+    },
+    "ESFP": {
+      "type": "ESFP",
+      "nickname": "Entertainer",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fesfp.png",
+      "ratio": "Approx. 8% of population",
+      "description": "ESFPs are lively, expressive entertainers who bring joy and spontaneity to others. They are empathetic, outgoing, and grounded in experience. However, their love for excitement can distract them from long-term goals. With focus and reflection, they transform charisma into achievement.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ISFJ",
+        "ESFP",
+        "ENFP"
+      ],
+      "careers": [
+        "Performer",
+        "Actor",
+        "Event Planner"
+      ]
+    },
+    "ISFP": {
+      "type": "ISFP",
+      "nickname": "Adventurer",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fisfp.png",
+      "ratio": "Approx. 9% of population",
+      "description": "ISFPs are sensitive, artistic individuals who value authenticity and harmony. They express themselves through creativity and enjoy living in the present. Though gentle, they may avoid conflict. Building confidence and assertiveness helps them communicate needs while staying true to their nature.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ESFJ",
+        "ENFJ",
+        "ISFP"
+      ],
+      "careers": [
+        "Artist",
+        "Illustrator",
+        "Design Consultant"
+      ]
+    },
+    "ISTJ": {
+      "type": "ISTJ",
+      "nickname": "Logistician",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fistj.png",
+      "ratio": "Approx. 11% of population",
+      "description": "ISTJs are responsible, organized individuals who value reliability and structure. They work diligently to maintain order and meet commitments. Practical and logical, they prefer proven methods. Learning flexibility helps them adapt to changing situations without losing stability.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ESFP",
+        "ISFJ",
+        "ESTP"
+      ],
+      "careers": [
+        "Legal Specialist",
+        "Administrative Officer",
+        "Archivist"
+      ]
+    },
+    "ISFJ": {
+      "type": "ISFJ",
+      "nickname": "Defender",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fisfj.png",
+      "ratio": "Approx. 9% of population",
+      "description": "ISFJs are caring, dependable supporters who prioritize kindness and duty. They find fulfillment in helping others and preserving harmony. Sometimes, they suppress their feelings to please others. Expressing emotions openly strengthens their relationships and self-understanding.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ESFP",
+        "ESTP",
+        "ENFP"
+      ],
+      "careers": [
+        "Nurse",
+        "Childcare Consultant",
+        "Social Worker"
+      ]
+    },
+    "ESFJ": {
+      "type": "ESFJ",
+      "nickname": "Consul",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Fesfj.png",
+      "ratio": "Approx. 8% of population",
+      "description": "ESFJs are sociable, loyal caregivers who build harmony in groups. They notice others' needs and organize effectively to meet them. However, they may overextend themselves or seek excessive approval. Balancing giving with self-care helps them maintain genuine connections.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ISFP",
+        "ISTP",
+        "ENFP"
+      ],
+      "careers": [
+        "Teacher",
+        "Community Manager",
+        "Customer Service Specialist"
+      ]
+    },
+    "ESTJ": {
+      "type": "ESTJ",
+      "nickname": "Executive",
+      "image": "https://352706075-1359405863.cos.ap-beijing.myqcloud.com/images%2Fmbti%2Festj.png",
+      "ratio": "Approx. 9% of population",
+      "description": "ESTJs are efficient, structured organizers who excel at leadership and implementation. They value order, clarity, and tradition. Sometimes they can appear rigid or overly controlling. Embracing flexibility and empathy allows them to lead with both authority and understanding.",
+      "keywords": [
+        "Translated keywords unavailable in this version"
+      ],
+      "matches": [
+        "ISFP",
+        "ISTJ",
+        "ESFJ"
+      ],
+      "careers": [
+        "Operations Manager",
+        "Business Administrator",
+        "Process Optimizer"
+      ]
+    }
+  }
+}
